@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>A LA ORDEN SKILLS</title>
+</head>
+<body>
+    <h1>Lista de CC</h1>
+    <select id="cc-list">
+        <option value="0">Selecciona un CC</option>
+    </select>
+    <button id="cargar-cc">Cargar CC</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
